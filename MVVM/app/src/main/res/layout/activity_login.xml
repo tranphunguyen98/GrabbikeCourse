@@ -46,7 +46,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/edtPassword"
                 app:layout_constraintStart_toStartOf="@+id/edtPassword"/>
         <TextView
-                android:text="@{loginViewModel.result}"
+                android:text="@{loginViewModel.result1}"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvStatus" android:layout_marginTop="8dp"

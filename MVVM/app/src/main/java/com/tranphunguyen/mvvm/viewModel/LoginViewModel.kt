@@ -25,11 +25,15 @@ class LoginViewModel(var context: Context) : BaseObservable(), InterfaceLoginVie
 
     override fun checkLogin() {
         user = User().getUser()
-
+        Log.d("checkMVVM",myUser.name + ":" + myUser.password)
         if (user?.name == myUser.name && user?.password == myUser.password) {
+
+            result1 = "Chúc mừng ${myUser.name} đã đăng nhập thành công!"
             Toast.makeText(context, "Đăng nhập thành công!", Toast.LENGTH_LONG).show()
+        } else {
+            result1 = "Đăng nhập thất bại!"
+            Toast.makeText(context, "Đăng nhập thất bại!", Toast.LENGTH_LONG).show()
         }
-        Toast.makeText(context, "Đăng nhập thất bại!", Toast.LENGTH_LONG).show()
     }
 
     fun getUserName(edUserName: Editable) {
