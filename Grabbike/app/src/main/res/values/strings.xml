@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grabbike</string>
+    <string name="sub_tu_chon_hanh_trinh">Chọn nơi bạn đến với thao tác đơn giản\nKhông giới hạng địa điểm</string>
+    <string name="tu_chon_hanh_trinh">Tự chọn hành trình</string>
+    <string name="chon_xe_ban_yeu_thich">Chọn xe bạn yêu thích</string>
+    <string name="sub_chon_loai_xe">Yêu cầu xe gần bạn và chọn xe bạn muốn\nChi phí không đổi tùy chọn tài xế</string>
+    <string name="thay_doi_diem_den">Thay đổi diểm đến</string>
+    <string name="sub_thay_doi_diem_den">Bạn muốn thay đổi điểm đến\nỨng dụng cho bạn thay đổi điểm đến linh hoạt</string>
+</resources>
